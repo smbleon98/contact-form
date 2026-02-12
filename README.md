@@ -1,16 +1,11 @@
-# React + Vite
+Shadia Milon
+Module 11 React Form - Code Exploration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Git Repo URL: https://github.com/smbleon98/contact-form/
 
-Currently, two official plugins are available:
+OPTIONAL FEATURES
+I added a field for Phone number by recycling part of the code we were given.
+I did not make any stylistic adjustments.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ADDITIONAL OBSERVATIONS
+I noticed that the validations are not real-time as I assumed the definition being; you have to click "Submit" in order to see the error messages about which required fields are missing values. I had expected real-time to mean that you would get feedback as you click out of the field. However, as I write that, I can consider how it would be an annoying user experience to get red errors on all upcoming fields already knowing that you're going to fill them out in order to submit the form to begin with.
